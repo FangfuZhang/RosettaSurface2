@@ -3,13 +3,13 @@ path is first '/', './',or  '../' to next whitespace, must end with '/'
 INPUT PATHS:
 pdb1	                        ./
 pdb2                            ./
-alternate data files            /nfs/04/uak0258/compiling/rosetta_database/
+alternate data files            /path/to/rosetta_database/
 fragments                       ./
 structure dssp,ssa (dat,jones)  ./
 sequence fasta,dat,jones        ./
 constraints                     ./
 starting structure              ./
-data files                      /nfs/04/uak0258/compiling/rosetta_database/
+data files                      /path/to/rosetta_database/
 OUTPUT PATHS:                   ./
 movie                           ./
 pdb path                        ./
