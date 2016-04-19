@@ -1,0 +1,6 @@
+#!/bin/bash
+
+Code=$1
+PDB=$2
+
+./rosetta.gcc $Code $PDB _ -s $PDB.pdb -ligand -surface -relax -surf_fold_from_seq -regions -regionfile regions -resfile $PDB.resfile -ex1 -output_hbond_info -nstruct 1
